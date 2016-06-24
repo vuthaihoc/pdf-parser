@@ -1,6 +1,6 @@
 {
-  "name": "wrseward/pdf-parser",
-  "description": "PHP library to parse text from PDF files",
+  "name": "vuthaihoc/pdf-parser",
+  "description": "PHP library to parse text from PDF files, use symfony/process 3.x",
   "keywords": ["pdf", "pdf-parser", "pdftotext", "parser"],
   "homepage": "https://github.com/wrseward/pdf-parser",
   "type": "library",
@@ -13,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.3.3",
-    "symfony/process": "~2.7"
+    "symfony/process": "~3.1.1"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.2",
